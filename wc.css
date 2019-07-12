@@ -1,0 +1,28 @@
+body {
+  background-image: linear-gradient( blue, white);
+}
+
+
+ul {background-image: linear-gradient( blue, blue);
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+
+}
+
+a:link {
+  color: white;
+}
+
+
+a:visited {
+  color: black;
+}
+
+li{
+  font-size: 36px;
+  font-style: italic;
+}
+li:hover { color: white;
+}
