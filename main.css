@@ -1,0 +1,38 @@
+body {
+  background-image: linear-gradient( grey, black);
+}
+
+
+form{
+  font-size: 1.25em;
+  font-weight: bold;
+  display: inline;
+  margin-bottom: 20px;
+  font-family: 'Kaushan Script', cursive;
+
+}
+
+
+ul {background-image: linear-gradient( red, orange);
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+
+}
+
+a:link {
+  color: white;
+}
+
+
+a:visited {
+  color: black;
+}
+
+li{
+  font-size: 36px;
+  font-style: italic;
+}
+li:hover { color: white;
+}
