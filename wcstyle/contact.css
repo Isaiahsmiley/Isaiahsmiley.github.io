@@ -1,11 +1,15 @@
 body {
 
-  background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  background-image: linear-gradient(50deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
   opacity: 0.95;
 }
 img{
   margin-top: 0px;
 }
+hr { border-color: black;
+
+}
+
 
 
 ul {background-image: linear-gradient();
@@ -23,10 +27,14 @@ p {
 }
 h1 {
   width: 100%;
-  Color: red;
+  Color: black;
  font-size: 55px;
  font-style: italic;
  text-align: center;
+}
+h2 {
+font-size: 40px;
+font-style: italic;
 }
 
 
@@ -47,24 +55,55 @@ margin-bottom: 20px;
 font-style: italic;
 }
 
-input { border: 2px solid red;}
+input { border: 2px solid black;
+border-radius: 4px;
+background-color: white;
+color: black;
+margin-bottom: 20px;
+height: 25px;
+width: 200px;
+}
+textarea {border: 2px solid black;
+border-radius: 4px;
+background-color: white;
+color: black;
+height: 100px;
+width: 350px;
+}
 
 a:visited {
   color: blue;
 }
+
+
+
  #contact-design {
 	width:20%;}
 
-  .contact {height: 200px;
-     width: 200px;
+  .contact > img {height: 400px;
+     width: 400px;
 	 border:5px solid black;
  margin: 50px auto;
-border-radius: 150px 150px;
-opacity: 1}
+border-radius: 200px 200px;
+opacity: 1;
+  transform: rotate(0deg);
+}
 
+.contact > p {
+  display: inline;
+}
 
 li{
   font-size: 36px;
   font-style: italic;
+
+}
+
+#container {display: flex;
+justify-content: flex-end;
+text-align: right;
+
+}
+
 
 }
