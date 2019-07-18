@@ -1,0 +1,259 @@
+
+
+
+
+
+
+body {
+
+  background-image: linear-gradient(50deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  opacity: 0.95;
+}
+img{
+  margin-top: 0px;
+}
+hr { border-color: black;
+}
+
+
+
+ul {background-image: linear-gradient();
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+
+}
+
+p {
+  text-align: right;
+  font-size: 18px;
+  align-items: flex-start;
+}
+h1 {
+  width: 100%;
+  Color: black;
+ font-size: 55px;
+ font-style: italic;
+ text-align: center;
+}
+h2 {
+font-size: 40px;
+font-style: italic;
+}
+
+
+
+div { text-align: right;
+
+}
+
+
+a:link {
+  color: blue;
+}
+
+
+
+a:visited {
+  color: blue;
+}
+
+
+li{
+  font-size: 36px;
+  font-style: italic;
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+:root {
+    --red: hsl(0, 100%, 45%);
+    --blu: hsl(225, 100%, 60%);
+}
+
+p, a, .hereWeAre form input, .hereWeAre form textarea, .hereWeAre form button {
+    font-style: italic;
+    color: hsl(0, 0%, 10%);
+}
+
+p {
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+p a:hover {
+    color: Black;
+}
+
+
+
+.botoneta:hover {
+    background-color: var(--red);
+    color: White;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.laLinea {
+    width: 95%;
+    height: 5px;
+    background-color: var(--red);
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 0.5em;
+    border-radius: 5px;
+}
+
+.
+
+.comida {
+    color: White;
+    margin: 2% 0px;
+    transition: 0.25s;
+    background-color: var(--blu);
+}
+
+.comida > p {
+    color: White;
+}
+
+
+
+.hereWeAre:nth-child(even) > div > form button[type="submit"]:hover {
+    background-color: White;
+    color: var(--red);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: var(--blu);
+    padding: 0.5em;
+}
+
+.footer div p {
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    font-variant-caps: all-petite-caps;
+    letter-spacing: 2px;
+}
+
+.footer div p a {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer div p a:hover {
+    color: gainsboro;
+}
+
+.l {
+    text-align: left;
+}
+
+.c {
+    text-align: center;
+}
+
+.r {
+    text-align: right;
+}
+
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 25px auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: hsl(0, 0%, 10%);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.contenedor {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.contenedor::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: hsl(0, 0%, 10%);
+    border: 4px solid;
+    border-color: hsl(0, 0%, 10%);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.izqui {
+    left: 0;
+}
+
+.deche {
+    left: 50%;
+}
+
+.izqui::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid hsl(225, 100%, 60%);
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent hsl(225, 100%, 60%);
+}
+
+.deche::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid hsl(225, 100%, 60%);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent hsl(225, 100%, 60%) transparent transparent;
+}
+
+.deche::after {
+    left: -16px;
+}
+
+.contenido {
+    padding: 20px 30px;
+    background-color: var(--blu);
+    position: relative;
+    transition: 0.25s;
+}
+
+.contenido:hover {
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contenido p {
+    color: White;
+}
