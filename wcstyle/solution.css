@@ -1,0 +1,116 @@
+body {
+
+  background-image: linear-gradient(50deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  opacity: 0.95;
+}
+img{
+  margin-top: 0px;
+}
+
+}
+
+img #clinic {
+  width: 500px;
+  height: 500px;
+}
+
+hr {border: 5px solid black}
+
+ul {background-image: linear-gradient();
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+p {
+  text-align: right;
+  font-size: 18px;
+  align-items: flex-start;
+font-family: 'montserrat';
+}
+
+h1 {
+  width: 100%;
+  Color: black;
+ font-size: 55px;
+font-family: 'montserrat';
+text-align: center;
+}
+
+div { text-align: right;
+
+}
+
+
+a:link {
+  color: blue;
+}
+
+
+a:visited {
+  color: blue;
+}
+
+li{
+  font-size: 36px;
+font-family: 'montserrat';
+
+}
+
+h3 { font-size: 30px;
+  font-family: 'montserrat';
+  text-align: center;
+
+}
+
+h2 {text-align: center;
+color: black;
+font-size: 55px;
+font-family: 'montserrat';
+}
+
+.side {
+    float:left;
+    width: 45.33%;
+    padding: 22px;
+    height: 400px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#line{
+    border: 1px solid black;
+    border-color: solid black;
+    border-radius: 2px;
+    background: black;
+    display: block;
+    height: 1000px;
+    width: 1%;
+    float: left;
+}
+
+img{
+    width:500px;
+    height:250px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+h3{
+font-family: 'Libre Baskerville', serif;
+}
+
+#Source{
+    font-size: 4px;
+}
+#logo{
+    height:300px;
+    width:300px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
